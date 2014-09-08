@@ -1,0 +1,40 @@
+/* CSS reset */
+
+body, div, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS style */
+
+body {
+  width: 100%;
+  font: 100%/1.5 Georgia, serif;
+  }
+
+a {
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 2px solid #64efc1;
+  /* padding-bottom: 1px; */
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color .3s ease;
+  }
+
+a:hover,
+a:focus {
+  color: black;
+  background-color: #64efc1;
+  }
+
+::-moz-selection {
+  background-color: #64efc1;
+  }
+
+::selection {
+  background-color: #64efc1;
+  }
+
+  h1 {
+    font: 1.5em/1em Old Standard;
+    }
