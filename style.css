@@ -33,9 +33,6 @@ h1 {
 
 .words {
   display: -webkit-flex;
-  -webkit-align-items: center;
-  -webkit-justify-content: center;
-  
   display: flex;
   align-items: center;
   justify-content: center;
