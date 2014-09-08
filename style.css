@@ -29,14 +29,14 @@ a:focus {
   }
 
 h1 {
+  font-family: "learning-curve", sans-serif;
+}
+
+/* h1 {
     font-family: "brandon-grotesque", sans-serif;
     font-weight: 700;
     font-style: italic;
-
-
-/* h1 {
-  font-family: "learning-curve", sans-serif;
-} */
+*/
 
 .words {
   display: -webkit-flex;
