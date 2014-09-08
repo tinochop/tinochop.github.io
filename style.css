@@ -1,7 +1,7 @@
 /* CSS style */
 
 body {
-  font: 100%/1.5 "brandon-grotesque", sans-serif;
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: 300;
   }
 
@@ -28,15 +28,15 @@ a:focus {
   background-color: #66FF99;
   }
 
-/*h1 {
+h1 {
     font-family: "brandon-grotesque", sans-serif;
     font-weight: 700;
     font-style: italic;
-    }*/
 
-h1 {
+
+/* h1 {
   font-family: "learning-curve", sans-serif;
-}
+} */
 
 .words {
   display: -webkit-flex;
