@@ -1,21 +1,13 @@
-/* CSS reset */
-
-body, div, p {
-  margin: 0;
-  padding: 0;
-}
-
 /* CSS style */
 
 body {
-  width: 100%;
   font: 100%/1.5 Georgia, serif;
   }
 
 a {
   color: #000000;
   text-decoration: none;
-  border-bottom: 2px solid #64efc1;
+  border-bottom: 2px solid #66FF99;
   /* padding-bottom: 1px; */
   -webkit-transition: background-color 0.3s ease;
   transition: background-color .3s ease;
@@ -24,17 +16,28 @@ a {
 a:hover,
 a:focus {
   color: black;
-  background-color: #64efc1;
+  background-color: #66FF99;
   }
 
 ::-moz-selection {
-  background-color: #64efc1;
+  background-color: #66FF99;
   }
 
 ::selection {
-  background-color: #64efc1;
+  background-color: #66FF99;
   }
 
-  h1 {
+h1 {
     font: 1.5em/1em Old Standard;
     }
+
+.words {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chunk {
+  max-width: 50%;
+  margins: auto;
+}
